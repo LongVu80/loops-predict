@@ -1,6 +1,7 @@
 /* Predict 1 */
 function countFunc(){
-    for(num = 0; num < 15; num++){
+    for(var num = 0; num < 15; num++){
+        alert(num)
     console.log(num);
     }
 }
@@ -13,6 +14,7 @@ function countFunc(){
 function oddFunc(){
     for(var i = 1; i < 10; i+=2){
         if(i % 3 == 0){
+            alert(i)
         console.log(i);
     }
 }
@@ -28,6 +30,7 @@ function ifElseFunc(){
         else if(j % 3 == 0){
             j++;
         }
+        alert(j)
         console.log(j);
     }
 }
